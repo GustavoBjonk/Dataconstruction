@@ -6,7 +6,7 @@ import { articles, ARTICLE_CATEGORIES } from "@/data/articles";
 export const metadata: Metadata = {
   title: "Artigos",
   description:
-    "Todos os artigos técnicos do Dataconstruction sobre Engenharia de Dados, Ciência de Dados, Análise de Dados, SQL, Python, Power BI, Cloud e Backend.",
+    "Todos os artigos técnicos do Dataconstruction sobre Análise de Dados: SQL, Python e Power BI.",
 };
 
 const SORTED_ARTICLES = [...articles].sort((a, b) => b.date.localeCompare(a.date));

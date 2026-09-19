@@ -32,7 +32,7 @@ export function Header() {
           <span className="font-medium text-slate-500">BLOG</span>
         </Link>
 
-        <nav aria-label="Navegação principal" className="hidden md:block">
+        <nav aria-label="Navegação principal" className="hidden lg:block">
           <ul className="flex items-center gap-8">
             {NAV_ITEMS.map((item) => {
               const isActive =
@@ -58,7 +58,7 @@ export function Header() {
 
         <button
           type="button"
-          className="flex h-10 w-10 items-center justify-center rounded-md text-slate-600 hover:bg-slate-100 md:hidden"
+          className="flex h-10 w-10 items-center justify-center rounded-md text-slate-600 hover:bg-slate-100 lg:hidden"
           aria-expanded={isMenuOpen}
           aria-controls="mobile-menu"
           aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
@@ -87,7 +87,7 @@ export function Header() {
       <nav
         id="mobile-menu"
         aria-label="Menu mobile"
-        className={`overflow-hidden border-t border-slate-200 bg-slate-50 transition-[max-height] duration-200 ease-in-out md:hidden ${
+        className={`overflow-hidden border-t border-slate-200 bg-slate-50 transition-[max-height] duration-200 ease-in-out lg:hidden ${
           isMenuOpen ? "max-h-[28rem]" : "max-h-0 border-t-0"
         }`}
       >

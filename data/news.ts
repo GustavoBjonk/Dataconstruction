@@ -166,7 +166,7 @@ export const news: NewsArticle[] = [
     tags: ["PostgreSQL", "SQL", "MERGE", "Banco de Dados Relacional"],
     source: "PostgreSQL Global Development Group (site oficial)",
     sourceUrl: "https://www.postgresql.org/about/news/postgresql-15-released-2526/",
-    related: { articleIds: ["particionamento-tabelas-postgres"], trackSlugs: ["sql"] },
+    related: { articleIds: ["ctes-recursivas-sql"], trackSlugs: ["sql"] },
   },
   {
     id: "redis-7-lancado",
@@ -576,7 +576,7 @@ export const news: NewsArticle[] = [
     tags: ["PostgreSQL", "SQL", "Performance", "Replicação"],
     source: "PostgreSQL Global Development Group (postgresql.org)",
     sourceUrl: "https://www.postgresql.org/about/news/postgresql-16-released-2715/",
-    related: { articleIds: ["particionamento-tabelas-postgres"], trackSlugs: ["sql"] },
+    related: { articleIds: ["ctes-recursivas-sql"], trackSlugs: ["sql"] },
   },
   {
     id: "amazon-bedrock-ga",
@@ -809,7 +809,7 @@ export const news: NewsArticle[] = [
     tags: ["PostgreSQL", "Banco de Dados", "Open Source", "Performance"],
     source: "PostgreSQL Global Development Group (comunicado oficial)",
     sourceUrl: "https://www.postgresql.org/about/news/postgresql-17-released-2936/",
-    related: { articleIds: ["particionamento-tabelas-postgres"], trackSlugs: ["sql"] },
+    related: { articleIds: ["ctes-recursivas-sql"], trackSlugs: ["sql"] },
   },
   {
     id: "meta-lanca-llama-3",
@@ -1104,7 +1104,7 @@ export const news: NewsArticle[] = [
     tags: ["PostgreSQL", "SQL", "Performance", "Open Source"],
     source: "PostgreSQL.org (comunicado oficial)",
     sourceUrl: "https://www.postgresql.org/about/news/postgresql-18-released-3142/",
-    related: { articleIds: ["particionamento-tabelas-postgres"], trackSlugs: ["sql"] },
+    related: { articleIds: ["ctes-recursivas-sql"], trackSlugs: ["sql"] },
   },
   {
     id: "duckdb-142-lts",
